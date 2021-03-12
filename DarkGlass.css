@@ -57,11 +57,6 @@ element.style {
     background-color: rgb(0 0 0 / 15%);
 }
 
-button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
-    cursor: pointer;
-    background-color: rgb(0 0 0 / 15%);
-}
-
 .navbar-footer {
     position: fixed;
     bottom: 0px;
@@ -270,4 +265,14 @@ form {
 
 .bg-variable {
     background-color: #0000004a !important;
+}
+
+button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
+    cursor: pointer;
+    background-color: rgb(0 0 0 / 31%);
+}
+
+.list-group-horizontal > button:not(:first-child) {
+    margin-left: 0.25rem;
+    background-color: rgb(0 0 0 / 31%);
 }
