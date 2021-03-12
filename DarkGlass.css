@@ -33,6 +33,7 @@ app {
 :root {
     --bg-secondary: #0000;
 	--bg-dark: #0000;
+	--bg-light: #ffffff30
 }
 .debugger-log {
     background-color: #000000a8;
@@ -208,7 +209,6 @@ button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disab
     margin-left: 0.25rem;
     background-color: rgb(0 0 0 / 31%);
 }
-
 table.grid-table tr.grid-row-selected td {
     color: unset;
     background: #8080803b !important;
