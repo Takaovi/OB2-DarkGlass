@@ -162,11 +162,6 @@ select {
     border-image: url(https://media4.giphy.com/media/26ufo4EIIEdB8tX3y/giphy.gif?cid=ecf05e47qppf2s2w6ubior2w98ulzuiefqk79wqhmazs9kyl&rid=giphy.gif) 30;
 	background-color: #00000033 !important;
 }
-table.grid-table tr.grid-row-selected td {
-    color: unset;
-    background: #00000070 !important;
-	/* border-radius: 5px; I think it looked kind of ugly so decided to left this out. */
-}
 .input-group {
     border: 0px solid #ccc;
 }
@@ -212,4 +207,9 @@ button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disab
 .list-group-horizontal > button:not(:first-child) {
     margin-left: 0.25rem;
     background-color: rgb(0 0 0 / 31%);
+}
+
+table.grid-table tr.grid-row-selected td {
+    color: unset;
+    background: #8080803b !important;
 }
