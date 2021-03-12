@@ -1,4 +1,4 @@
-# OB2-DarkGlass
+# OpenBullet 2 - DarkGlass
 A theme for OpenBullet
 
 
