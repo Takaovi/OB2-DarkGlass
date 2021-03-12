@@ -1,12 +1,8 @@
 /*
-
 Thanks for using my theme!
 - Takaovi (HXR)
-
 If you want to change the background just edit the url on the line 26.
-
 Check for updates here - discourse.openbullet.dev/t/hxr-takaovi-darkglass/836 and here https://github.com/Takaovi/OB2-DarkGlass
-
 */
 
 .main > div {
@@ -172,7 +168,6 @@ margin-block: 2% 2%;
     border-radius: 7.5em 0 0 7.5em;
     background-color: transparent;
 }
-
 .swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=right] {
     top: -.6875em;
     left: 1.875em;
@@ -183,7 +178,6 @@ margin-block: 2% 2%;
     border-radius: 0 7.5em 7.5em 0;
     background-color: transparent;
 }
-
 .swal2-icon.swal2-success .swal2-success-fix {
     position: absolute;
     z-index: 1;
@@ -211,6 +205,7 @@ select {
     border-radius: 5px;
     border: 2px solid;
     border-image: url(https://media4.giphy.com/media/26ufo4EIIEdB8tX3y/giphy.gif?cid=ecf05e47qppf2s2w6ubior2w98ulzuiefqk79wqhmazs9kyl&rid=giphy.gif) 30;
+	background-color: #00000033 !important;
 }
 
 table.grid-table tr.grid-row-selected td {
