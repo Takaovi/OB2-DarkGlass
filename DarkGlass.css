@@ -267,3 +267,7 @@ form {
     color: #fff !important;
     background-color: #1f1f1f4f !important;
 }
+
+.bg-variable {
+    background-color: #0000004a !important;
+}
