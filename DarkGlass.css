@@ -1,0 +1,269 @@
+/*
+
+Thanks for using my theme!
+- Takaovi (HXR)
+
+If you want to change the background just edit the url on the line 26.
+
+Check for updates here - discourse.openbullet.dev/t/hxr-takaovi-darkglass/836
+
+*/
+
+.main > div {
+    padding-left: 2rem !important;
+    padding-right: 1.5rem !important;
+    background: rgb(0 0 0 / 12%);
+    box-shadow: 0 0 20px 20px #0000006b;
+    backdrop-filter: blur(5px);
+}
+
+app {
+    /* background-image: url(https://i.imgur.com/ZlmNE9U.jpg); */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    /* background-position: unset; */
+    /* background-position-x: -800px; */
+    background: rgb(0 0 0 / 72%) url(https://i.imgur.com/ZlmNE9U.jpg);
+    background-blend-mode: darken;
+	background-size: cover;
+}
+
+/*
+element.style {
+    background: rgb(0 0 0 / 88%);
+} */
+
+.sidebar {
+    background-color: #0005;
+    width: 230px;
+    min-width: 230px;
+    transition: 0.5s;
+    overflow-y: auto;
+}
+
+:root {
+    --bg-secondary: #0000;
+	--bg-dark: #0000;
+}
+
+.debugger-log {
+    background-color: #000000a8;
+	border-radius: 10px;
+    border: 2px solid #ffffff33;
+}
+
+.list-group-horizontal > button:not(:first-child) {
+    margin-left: 0.25rem;
+    background-color: rgb(0 0 0 / 15%);
+}
+
+button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
+    cursor: pointer;
+    background-color: rgb(0 0 0 / 15%);
+}
+
+.navbar-footer {
+    position: fixed;
+    bottom: 0px;
+    height: 62px;
+    width: 229px;
+    z-index: 1;
+    background: #0000002e;
+    backdrop-filter: blur(5px);
+}
+
+/*
+element.style {
+    width: 100%;
+    height: 500px;
+    margin-bottom: 15px;
+    background: rgb(70 70 70 / 9%);
+    border-radius: 5px;
+    border: 2px solid #ffffff42;
+} */
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 0px;
+    background: rgb(255 255 255 / 2%);
+    border: 2px solid #80808029;
+    margin: px;
+	padding: 1%;
+}
+
+.col-xl-6 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    background: rgb(70 70 70 / 11%);
+}
+
+input:not([type=checkbox]), textarea {
+    background: rgb(0 0 0 / 25%);
+    color: #fff;
+    border: 1px solid #e2363600;
+    padding: 3px 6px 3px 6px;
+    font-family: var(--consolas);
+    margin-bottom: 15px;
+    margin: 0;
+}
+
+label {
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    align-self: center;
+    margin: 5px;
+}
+
+.col-auto {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+    width: auto;
+    max-width: 100%;
+    align-self: center;
+}
+
+/*
+.col {
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    -webkit-box-flex: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    max-width: 100%;
+	margin: 5px;
+}
+*/
+
+.stacker-block {
+margin-block: 2% 2%;
+}
+
+.stacker-block-body {
+    font-size: 16px;
+    padding: 5px 0px;
+}
+
+.multiple-selector {
+    display: flex;
+    width: 35%;
+	width: 95%;
+	
+}
+
+.swal2-popup {
+    background: #232323 !important;
+    border-radius: 5px !important;
+    box-shadow: 0 0 10px 10px #00000066;
+    /* backdrop-filter: blur(5px); */
+}
+
+.swal2-container.swal2-backdrop-show, .swal2-container.swal2-noanimation {
+    background: rgb(107 107 107 / 40%);
+}
+
+/*
+.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=left] {
+    top: -.4375em;
+    left: -2.0635em;
+    transform: rotate(
+-45deg
+);
+    transform-origin: 3.75em 3.75em;
+    border-radius: 7.5em 0 0 7.5em;
+    background-color: transparent;
+}
+
+.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=right] {
+    top: -.6875em;
+    left: 1.875em;
+    transform: rotate(
+-45deg
+);
+    transform-origin: 0 3.75em;
+    border-radius: 0 7.5em 7.5em 0;
+    background-color: transparent;
+}
+
+.swal2-icon.swal2-success .swal2-success-fix {
+    position: absolute;
+    z-index: 1;
+    top: .5em;
+    left: 1.625em;
+    width: .4375em;
+    height: 5.625em;
+    transform: rotate(
+-45deg
+);
+    background-color: transparent;
+}
+*/
+
+select {
+    margin-left: 5px !important;
+    background-color: #0000006e;
+    color: var(--fg-primary);
+    border-radius: 5px;
+    border: 1px solid var(--bg-dark);
+    padding: 3px;
+}
+
+.p-2 {
+    border-radius: 5px;
+    border: 2px solid;
+    border-image: url(https://media4.giphy.com/media/26ufo4EIIEdB8tX3y/giphy.gif?cid=ecf05e47qppf2s2w6ubior2w98ulzuiefqk79wqhmazs9kyl&rid=giphy.gif) 30;
+}
+
+table.grid-table tr.grid-row-selected td {
+    color: unset;
+    background: #00000070 !important;
+	/* border-radius: 5px; I think it looked kind of ugly so decided to left this out. */
+}
+
+.input-group {
+    border: 0px solid #ccc;
+}
+
+.bg-interpolated {
+    background-color: #00000036 !important;
+}
+
+.bg-light {
+	background: #67676763;
+}
+
+.card-text {
+	color: #fff;
+}
+
+.debugger-log {
+    margin-left: 1%;
+}
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    margin-left: 2%;
+}
+
+.container.pt-2.px-1 {
+    border-radius: 5px;
+    margin-bottom: 5px;
+    padding-bottom: 7px;
+	background: rgb(0 0 0 / 38%);
+}
+
+.bulletta-messagebox {
+    background-color: #000000f0;
+}
+
+form {
+	padding-bottom: 5px;
+}
+
+.page-item .page-link {
+    color: #fff !important;
+    background-color: #1f1f1f4f !important;
+}
