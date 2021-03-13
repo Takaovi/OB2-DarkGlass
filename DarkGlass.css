@@ -215,6 +215,6 @@ table.grid-table tr.grid-row-selected td {
 }
 .fg-fail.mb-3:after {
   color:white;
-  content: "\a You're currently using the DarkGlass theme! Visit the Github https://github.com/Takaovi/OB2-DarkGlass for more information and updates.";
+  content: "\a You're currently using the DarkGlass theme! Visit the Github (github.com/Takaovi/OB2-DarkGlass) for more information and updates.";
   white-space: pre;
 }
