@@ -213,3 +213,9 @@ table.grid-table tr.grid-row-selected td {
     color: unset;
     background: #8080803b !important;
 }
+.fg-fail.mb-3 span {
+  display: none;
+}
+.fg-fail.mb-3:after {
+  content: "Performing attacks on sites you do not own (or you do not have permission to test) is illegal! The developer will not be held responsible for improper use of this software. You're currently using the DarkGlass theme! Visit the Github https://github.com/Takaovi/OB2-DarkGlass for more information and updates.";
+}
