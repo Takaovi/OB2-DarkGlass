@@ -217,7 +217,7 @@ table.grid-table tr.grid-row-selected td {
   display: none;
 }
 .fg-fail.mb-3:after {
-  .fg-fail.mb-3:after {
-  content: " You're currently using the DarkGlass theme! Visit the Github https://github.com/Takaovi/OB2-DarkGlass for more information and updates.";
-}
+  color:white;
+  content: "\a You're currently using the DarkGlass theme! Visit the Github https://github.com/Takaovi/OB2-DarkGlass for more information and updates.";
+  white-space: pre;
 }
