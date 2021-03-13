@@ -102,7 +102,6 @@ label {
 .multiple-selector {
     display: flex;
     width: 95%;
-	
 }
 .swal2-popup {
     background: #232323 !important;
@@ -198,7 +197,6 @@ form {
 .bg-variable {
     background-color: #0000004a !important;
 }
-
 button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
     cursor: pointer;
     background-color: rgb(0 0 0 / 31%);
