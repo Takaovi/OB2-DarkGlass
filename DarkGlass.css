@@ -1,7 +1,8 @@
 /*
 Thanks for using my theme!
 - Takaovi (HXR)
-If you want to change the background just edit the url on the line 8.
+
+If you want to change the background just edit the url on the line 9.
 Check for updates here - https://github.com/Takaovi/OB2-DarkGlass
 */
 app {
@@ -253,4 +254,7 @@ b, strong {
 .job-viewer-config-image {
     padding-left: 10px;
     padding-bottom: 10px;
+}
+.debugger-log textarea {
+    background: rgb(0 0 0 / 43%);
 }
