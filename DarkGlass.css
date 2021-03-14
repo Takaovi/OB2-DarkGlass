@@ -219,7 +219,7 @@ table.grid-table tr.grid-row-selected td {
     border-image: url(https://i.imgur.com/nxgd9GQ.gif) 30;
 }
 .swal2-popup {
-    background: #0000009c !important;
+    background: #000000c4 !important;
     backdrop-filter: blur(3px);
     border: 2px solid;
     border-image: url(https://i.imgur.com/nxgd9GQ.gif) 30;
