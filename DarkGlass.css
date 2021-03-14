@@ -237,18 +237,18 @@ ol, ul, dl {
     background: rgba(0,0,0,0.35);
 }
 .font-weight-bold {
-    padding-left: 4%;
+    padding-left: 10px;
 }
 .fg-fail {
-    padding-left: 4%;
+    padding-left: 10px;
 }
 .fg-ban {
-    padding-left: 4%;
+    padding-left: 10px;
 }
 b, strong {
-    padding-left: 4%;
+    padding-left: 10px;
 }
 .job-viewer-config-image {
-    padding-left: 4%;
-    padding-bottom: 4%;
+    padding-left: 10px;
+    padding-bottom: 10px;
 }
