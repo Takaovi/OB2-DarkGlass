@@ -1,7 +1,6 @@
 /*
 Thanks for using my theme!
 - Takaovi (HXR)
-
 If you want to change the background just edit the url on the line 9.
 Check for updates here - https://github.com/Takaovi/OB2-DarkGlass
 */
@@ -157,7 +156,7 @@ select {
 .p-2 {
     border-radius: 5px;
     border: 2px solid;
-    border-image: url(https://media4.giphy.com/media/26ufo4EIIEdB8tX3y/giphy.gif?cid=ecf05e47qppf2s2w6ubior2w98ulzuiefqk79wqhmazs9kyl&rid=giphy.gif) 30;
+    border-image: url(https://i.imgur.com/nxgd9GQ.gif) 30;
     background-color: #00000033 !important;
 }
 .input-group {
@@ -213,4 +212,24 @@ table.grid-table tr.grid-row-selected td {
     color:white;
     content: "\a You're currently using the DarkGlass theme! Visit the Github (github.com/Takaovi/OB2-DarkGlass) for more information and updates.";
     white-space: pre;
+}
+.blazored-modal {
+    background: rgb(0 0 0 / 71%);
+    backdrop-filter: blur(3px);
+    border-image: url(https://i.imgur.com/nxgd9GQ.gif) 30;
+}
+.swal2-popup {
+    background: #0000009c !important;
+    backdrop-filter: blur(3px);
+    border: 2px solid;
+    border-image: url(https://i.imgur.com/nxgd9GQ.gif) 30;
+}
+.swal2-success-circular-line-left {
+	background-color: #00000000 !important;
+}
+.swal2-success-circular-line-right {
+	background-color: #00000000 !important;
+}
+.swal2-success-fix {
+	background-color: #00000000 !important;
 }
