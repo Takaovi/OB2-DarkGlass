@@ -258,3 +258,6 @@ b, strong {
 .debugger-log textarea {
     background: rgb(0 0 0 / 43%);
 }
+button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
+    margin-bottom: 5px;
+}
