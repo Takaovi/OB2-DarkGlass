@@ -60,6 +60,7 @@ app {
     border: 2px solid #80808029;
     margin: px;
     padding: 1%;
+	margin-bottom: 5px;
 }
 .col-xl-6 {
     -webkit-box-flex: 0;
@@ -199,6 +200,7 @@ form {
 button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
     cursor: pointer;
     background-color: rgb(0 0 0 / 31%);
+	margin-left: 8px;
 }
 .list-group-horizontal > button:not(:first-child) {
     margin-left: 0.25rem;
