@@ -1,7 +1,6 @@
 /*
 Thanks for using my theme!
 - Takaovi (HXR)
-
 If you want to change the background just edit the url on the line 9.
 Check for updates here - https://github.com/Takaovi/OB2-DarkGlass
 */
@@ -236,4 +235,20 @@ table.grid-table tr.grid-row-selected td {
 }
 ol, ul, dl {
     background: rgba(0,0,0,0.35);
+}
+.font-weight-bold {
+    padding-left: 4%;
+}
+.fg-fail {
+    padding-left: 4%;
+}
+.fg-ban {
+    padding-left: 4%;
+}
+b, strong {
+    padding-left: 4%;
+}
+.job-viewer-config-image {
+    padding-left: 4%;
+    padding-bottom: 4%;
 }
