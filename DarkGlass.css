@@ -261,3 +261,6 @@ b, strong {
 button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
     margin-bottom: 5px;
 }
+.grid-footer {
+    padding-bottom: 7px;
+}
