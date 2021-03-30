@@ -213,7 +213,7 @@ table.grid-table tr.grid-row-selected td {
     white-space: pre;
 }
 .swal2-popup {
-    background-color: #000000a8 !important;
+    background-color: #000000cc !important;
     border-radius: 5px !important;
     backdrop-filter: blur(3px);
     border: 2px solid;
