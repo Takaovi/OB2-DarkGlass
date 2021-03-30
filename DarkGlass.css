@@ -1,8 +1,7 @@
 /*
 Thanks for using my theme!
 - Takaovi (HXR)
-
-If you want to change the background just edit the url on the line 9.
+If you want to change the background just edit the url on the line 8.
 Check for updates here - https://github.com/Takaovi/OB2-DarkGlass
 */
 app {
@@ -105,7 +104,8 @@ label {
     width: 95%;
 }
 .swal2-container.swal2-backdrop-show, .swal2-container.swal2-noanimation {
-    background: rgb(58 58 58 / 50%);
+    backdrop-filter: blur(3px);
+    background-color: rgb(31 31 31 / 32%);
 }
 /*
 .swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=left] {
@@ -210,18 +210,10 @@ table.grid-table tr.grid-row-selected td {
     content: "\a You're currently using the DarkGlass theme! Visit the Github (github.com/Takaovi/OB2-DarkGlass) for more information and updates.";
     white-space: pre;
 }
-.blazored-modal {
-    background: rgb(0 0 0 / 71%);
-    backdrop-filter: blur(3px);
-    border-image: url(https://i.imgur.com/nxgd9GQ.gif) 30;
-}
-.blazored-modal-overlay {
-    background-color: rgb(58 58 58 / 50%);
-}
 .swal2-popup {
     background: #000000c4 !important
     border-radius: 5px !important;
-    box-shadow: 0 0 10px 10px #00000066;
+    box-shadow: 0 0 30px 30px #00000066;
     backdrop-filter: blur(3px);
     border: 2px solid;
     box-shadow: 0 0 50px 30px #0000007a;
@@ -259,8 +251,18 @@ b, strong {
     background: rgb(0 0 0 / 43%);
 }
 button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
+	background-color: rgb(53 53 53 / 31%);
     margin-bottom: 5px;
 }
 .grid-footer {
     padding-bottom: 7px;
+}
+.blazored-modal {
+    background: rgb(0 0 0 / 71%);
+    backdrop-filter: blur(3px);
+    border-image: url(https://i.imgur.com/nxgd9GQ.gif) 30;
+}
+.blazored-modal-overlay {
+    backdrop-filter: blur(3px);
+    background-color: rgb(31 31 31 / 32%);
 }
