@@ -58,7 +58,6 @@ app {
     padding-left: 0px;
     background: rgb(255 255 255 / 2%);
     border: 2px solid #80808029;
-    margin: px;
     padding: 1%;
 	margin-bottom: 5px;
 }
@@ -68,6 +67,9 @@ app {
     flex: 0 0 50%;
     max-width: 50%;
     background: rgb(70 70 70 / 11%);
+}
+.col-12, .col-xl-2 {
+    margin-bottom: 0px;
 }
 input:not([type=checkbox]), textarea {
     background: rgb(0 0 0 / 35%);
