@@ -1,7 +1,7 @@
 /*
 Thanks for using my theme!
 - Takaovi (HXR)
-If you want to change the background just edit the url on the line 8.
+If you want to change the background just edit the url on the line 9.
 Check for updates here - https://github.com/Takaovi/OB2-DarkGlass
 */
 app {
@@ -211,12 +211,10 @@ table.grid-table tr.grid-row-selected td {
     white-space: pre;
 }
 .swal2-popup {
-    background: #000000c4 !important
+    background-color: #000000a8 !important;
     border-radius: 5px !important;
-    box-shadow: 0 0 30px 30px #00000066;
     backdrop-filter: blur(3px);
     border: 2px solid;
-    box-shadow: 0 0 50px 30px #0000007a;
     border-image: url(https://i.imgur.com/nxgd9GQ.gif) 30;
 }
 .swal2-success-circular-line-left {
