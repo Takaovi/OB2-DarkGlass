@@ -1,11 +1,15 @@
 /*
 Thanks for using my theme!
 - Takaovi (HXR)
-If you want to change the background just edit the url on the line 8.
+If you want to change the background just edit the url on the line 8 or use a local picture on the line 11.
 Check for updates here - https://github.com/Takaovi/OB2-DarkGlass
 */
 app {
+    /* Image from the internet */
     background: rgb(0 0 0 / 72%) url(https://i.imgur.com/ZlmNE9U.jpg);
+    /* Image from the local disk | Place the image on OpenBullet 2's wwwroot > images. */
+    background: rgb(0 0 0 / 72%) url('/images/yourimage.jpg');
+	
     background-blend-mode: darken;
     background-size: cover;
     /* background-image: url(https://i.imgur.com/ZlmNE9U.jpg); */
