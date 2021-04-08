@@ -269,3 +269,6 @@ button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disab
     backdrop-filter: blur(3px);
     background-color: rgb(31 31 31 / 32%);
 }
+.triggered-action-container {
+	border: solid 0px var(--fg-dark);
+}
