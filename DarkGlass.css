@@ -261,7 +261,7 @@ button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disab
     padding-bottom: 7px;
 }
 .blazored-modal {
-    background: rgb(0 0 0 / 71%);
+    background: rgb(19 19 19 / 76%);
     backdrop-filter: blur(3px);
     border-image: url(https://i.imgur.com/nxgd9GQ.gif) 30;
 }
