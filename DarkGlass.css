@@ -59,10 +59,8 @@ app {
     width: 100%;
     padding-right: 15px;
     padding-left: 0px;
-    background: rgb(255 255 255 / 2%);
-    border: 2px solid #80808029;
     padding: 1%;
-	margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 .col-xl-6 {
     -webkit-box-flex: 0;
@@ -176,7 +174,7 @@ select {
     margin-left: 1%;
 }
 h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    margin-left: 2%;
+    margin-left: 0%;
 }
 .container.pt-2.px-1 {
     border-radius: 5px;
