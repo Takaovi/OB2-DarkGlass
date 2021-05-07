@@ -252,10 +252,6 @@ b, strong {
 .debugger-log textarea {
     background: rgb(0 0 0 / 43%);
 }
-button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
-	background-color: rgb(53 53 53 / 31%);
-    margin-bottom: 5px;
-}
 .grid-footer {
     padding-bottom: 7px;
 }
