@@ -273,3 +273,6 @@ b, strong {
 .ui-tabview-nav li {
     border: solid 0px #ffffff;
 }
+.config-item {
+    background-color: #0000008c !important;
+}
