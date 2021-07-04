@@ -11,11 +11,6 @@ app {
 	
     background-blend-mode: darken;
     background-size: cover;
-    /* background-image: url(https://i.imgur.com/ZlmNE9U.jpg); */
-    /* background-size: cover; */
-    /* background-repeat: no-repeat; */
-    /* background-position: unset; */
-    /* background-position-x: -800px; */
 }
 .main > div {
     padding-left: 2rem !important;
@@ -54,16 +49,6 @@ app {
     background: #0000002e;
     backdrop-filter: blur(5px);
 }
-/*
-.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12, .col-sm-1, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm, .col-sm-auto, .col-md-1, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-7, .col-md-8, .col-md-9, .col-md-10, .col-md-11, .col-md-12, .col-md, .col-md-auto, .col-lg-1, .col-lg-2, .col-lg-3, .col-lg-4, .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg, .col-lg-auto, .col-xl-1, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7, .col-xl-8, .col-xl-9, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl, .col-xl-auto {
-    position: relative;
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 0px;
-    padding: 1%;
-    margin-bottom: 5px;
-}
-*/
 .col-xl-6 {
     -webkit-box-flex: 0;
     -ms-flex: 0 0 50%;
@@ -112,40 +97,6 @@ label {
     backdrop-filter: blur(3px);
     background-color: rgb(31 31 31 / 32%);
 }
-/*
-.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=left] {
-    top: -.4375em;
-    left: -2.0635em;
-    transform: rotate(
--45deg
-);
-    transform-origin: 3.75em 3.75em;
-    border-radius: 7.5em 0 0 7.5em;
-    background-color: transparent;
-}
-.swal2-icon.swal2-success [class^=swal2-success-circular-line][class$=right] {
-    top: -.6875em;
-    left: 1.875em;
-    transform: rotate(
--45deg
-);
-    transform-origin: 0 3.75em;
-    border-radius: 0 7.5em 7.5em 0;
-    background-color: transparent;
-}
-.swal2-icon.swal2-success .swal2-success-fix {
-    position: absolute;
-    z-index: 1;
-    top: .5em;
-    left: 1.625em;
-    width: .4375em;
-    height: 5.625em;
-    transform: rotate(
--45deg
-);
-    background-color: transparent;
-}
-*/
 select {
     margin-left: 5px !important;
     background-color: #0000006e;
@@ -157,7 +108,7 @@ select {
 .p-2 {
     border-radius: 5px;
     border: 2px solid;
-    border-image: url(https://i.imgur.com/nxgd9GQ.gif) 30;
+    border-image: url(https://i.imgur.com/swTnyOP.gif) 30;
     background-color: #00000033 !important;
 }
 .input-group {
@@ -219,7 +170,7 @@ table.grid-table tr.grid-row-selected td {
     border-radius: 5px !important;
     backdrop-filter: blur(3px);
     border: 2px solid;
-    border-image: url(https://i.imgur.com/nxgd9GQ.gif) 30;
+    border-image: url(https://i.imgur.com/swTnyOP.gif) 30;
 }
 .swal2-success-circular-line-left {
 	background-color: #00000000 !important;
@@ -258,7 +209,7 @@ b, strong {
 .blazored-modal {
     background: rgb(19 19 19 / 76%);
     backdrop-filter: blur(3px);
-    border-image: url(https://i.imgur.com/nxgd9GQ.gif) 30;
+    border-image: url(https://i.imgur.com/swTnyOP.gif) 30;
 }
 .blazored-modal-overlay {
     backdrop-filter: blur(3px);
