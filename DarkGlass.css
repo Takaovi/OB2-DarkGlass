@@ -1,30 +1,50 @@
-/*
-Thanks for using my theme! - Takaovi (HXR)
+/* Thanks for using my theme! - Check for updates here https://github.com/Takaovi/OB2-DarkGlass */
 
-If you want to change the background just edit the URL on the line 10.
+/* Settings */
 
-Check for updates here - https://github.com/Takaovi/OB2-DarkGlass
-*/
-app {
-    /* Image from the internet | If you want a local image change the URL to /images/yourimage.jpg | Place the image on OpenBullet 2's wwwroot > images folder */
-    background: rgb(0 0 0 / 72%) url(https://i.imgur.com/UoJzcni.png);
+:root {
+/* Image from the internet | If you want a local image change the URL to /images/yourimage.jpg | Place the image on OpenBullet 2's wwwroot > images folder */
+--bgimage: url("https://i.imgur.com/UoJzcni.png");
+	--bgopacity: 69%;
 	
+--glasscolor: #0005;
+	--glassblur: 5px;
+
+--shadowcolor: #0000006b;
+	--shadowsize: 20px;
+
+--sidebarblur: 0px;
+
+--bordereffect: url("https://i.imgur.com/swTnyOP.gif");
+	--borderwidth: 3px;
+
+--popupbg: #000000cc;
+	--popupbgcolor: rgb(31 31 31 / 32%);
+	--popupbgblur: 5px;
+}
+
+/* CSS */
+
+app {
+    
+    background: rgb(0 0 0 / var(--bgopacity)) var(--bgimage);
     background-blend-mode: darken;
     background-size: cover;
 }
 .main > div {
     padding-left: 2rem !important;
     padding-right: 1.5rem !important;
-    background: rgb(0 0 0 / 12%);
-    box-shadow: 0 0 20px 20px #0000006b;
-    backdrop-filter: blur(5px);
+    background: var(--glasscolor);
+    box-shadow: 0 0 var(--shadowsize) var(--shadowsize) var(--shadowcolor);
+    backdrop-filter: blur(var(--glassblur));
 }
 .sidebar {
-    background-color: #0005;
+    background-color: var(--glasscolor);
     width: 230px;
     min-width: 230px;
     transition: 0.5s;
     overflow-y: auto;
+	backdrop-filter: blur(var(--sidebarblur));
 }
 :root {
     --bg-secondary: #0000;
@@ -94,8 +114,8 @@ label {
     width: 95%;
 }
 .swal2-container.swal2-backdrop-show, .swal2-container.swal2-noanimation {
-    backdrop-filter: blur(3px);
-    background-color: rgb(31 31 31 / 32%);
+    backdrop-filter: blur(var(--popupbgblur));
+    background-color: var(--popupbgcolor);
 }
 select {
     margin-left: 5px !important;
@@ -108,7 +128,7 @@ select {
 .p-2 {
     border-radius: 5px;
     border: 2px solid;
-    border-image: url(https://i.imgur.com/swTnyOP.gif) 30;
+    border-image: var(--bordereffect) 30;
     background-color: #00000033 !important;
 }
 .input-group {
@@ -166,11 +186,10 @@ table.grid-table tr.grid-row-selected td {
     white-space: pre;
 }
 .swal2-popup {
-    background-color: #000000cc !important;
+    background-color: var(--popupbg) !important;
     border-radius: 5px !important;
-    backdrop-filter: blur(3px);
-    border: 2px solid;
-    border-image: url(https://i.imgur.com/swTnyOP.gif) 30;
+    border: var(--borderwidth) solid;
+    border-image: var(--bordereffect) 30;
 }
 .swal2-success-circular-line-left {
 	background-color: #00000000 !important;
@@ -209,7 +228,7 @@ b, strong {
 .blazored-modal {
     background: rgb(19 19 19 / 76%);
     backdrop-filter: blur(3px);
-    border-image: url(https://i.imgur.com/swTnyOP.gif) 30;
+    border-image: var(--bordereffect) 30;
 }
 .blazored-modal-overlay {
     backdrop-filter: blur(3px);
