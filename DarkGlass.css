@@ -3,6 +3,7 @@
 /* Settings */
 
 :root {
+
 /* Image from the internet | If you want a local image change the URL to /images/yourimage.jpg | Place the image on OpenBullet 2's wwwroot > images folder */
 --bgimage: url("https://i.imgur.com/UoJzcni.png");
 	--bgopacity: 69%;
@@ -28,8 +29,11 @@
 	
 --buttonbg: rgb(0 0 0 / 0%);
 
+--gridselectioncolor: #3e3e3e87;
+
 /* Changes almost every text color */
 --fg-primary: #fff;
+
 }
 
 /* CSS */
@@ -187,7 +191,7 @@ button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disab
 }
 table.grid-table tr.grid-row-selected td {
     color: unset;
-    background: #8080803b !important;
+    background: var(--gridselectioncolor) !important;
 }
 .fg-fail.mb-3:after {
     color:white;
