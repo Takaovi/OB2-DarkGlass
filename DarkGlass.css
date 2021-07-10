@@ -1,4 +1,4 @@
-/* Thanks for using my theme! - Check for updates here https://github.com/Takaovi/OB2-DarkGlass */
+/* Thanks for using my theme! - Takaovi (HXR) Check for updates here - https://github.com/Takaovi/OB2-DarkGlass */
 
 /* Settings */
 
@@ -14,6 +14,7 @@
 	--shadowsize: 20px;
 
 --sidebarblur: 0px;
+	--sidebarbtncolor: rgb(255 255 255 / 15%);
 
 --bordereffect: url("https://i.imgur.com/swTnyOP.gif");
 	--borderwidth: 3px;
@@ -21,6 +22,14 @@
 --popupbg: #000000cc;
 	--popupbgcolor: rgb(31 31 31 / 32%);
 	--popupbgblur: 5px;
+	
+--textboxbg: rgb(0 0 0 / 35%);
+	--textboxtextcolor: #fff;
+	
+--buttonbg: rgb(0 0 0 / 0%);
+
+/* Changes almost every text color */
+--fg-primary: #fff;
 }
 
 /* CSS */
@@ -80,8 +89,8 @@ app {
     margin-bottom: 0px;
 }
 input:not([type=checkbox]), textarea {
-    background: rgb(0 0 0 / 35%);
-    color: #fff;
+    background: var(--textboxbg);
+    color: var(--textboxtextcolor);
     border: 1px solid #e2363600;
     padding: 3px 6px 3px 6px;
     font-family: var(--consolas);
@@ -170,7 +179,7 @@ form {
 }
 button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
     cursor: pointer;
-    background-color: rgb(0 0 0 / 0%);
+    background-color: var(--buttonbg);
 }
 .list-group-horizontal > button:not(:first-child) {
     margin-left: 0.25rem;
@@ -245,4 +254,7 @@ b, strong {
 }
 .config-item {
     background-color: #8080803b !important;
+}
+.sidebar .nav-item a.active, .sidebar .nav-item a:hover {
+    background-color: var(--sidebarbtncolor) !important;
 }
