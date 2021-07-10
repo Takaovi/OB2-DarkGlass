@@ -7,7 +7,7 @@ Check for updates here - https://github.com/Takaovi/OB2-DarkGlass
 */
 app {
     /* Image from the internet | If you want a local image change the URL to /images/yourimage.jpg | Place the image on OpenBullet 2's wwwroot > images folder */
-    background: rgb(0 0 0 / 72%) url(https://i.imgur.com/ZlmNE9U.jpg);
+    background: rgb(0 0 0 / 72%) url(https://i.imgur.com/UoJzcni.png);
 	
     background-blend-mode: darken;
     background-size: cover;
