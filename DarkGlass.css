@@ -11,7 +11,7 @@
 --glasscolor: rgb(0 0 0 / 25%);
 	--glassblur: 5px;
 
---shadowcolor: rgb(0 0 0 / 75%);
+--shadowcolor: rgb(0 0 0 / 40%);
 	--shadowsize: 20px;
 
 --sidebarblur: 0px;
@@ -31,7 +31,7 @@
 
 --gridselectioncolor: rgb(36 36 36 / 80%);
 
---dropdowncolor: rgb(30 30 30 / 100%);
+--dropdowncolor: rgb(50 50 50 / 50%);
 
 /* Changes almost every text color */
 --fg-primary: rgb(255 255 255 / 100%);
