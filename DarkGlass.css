@@ -31,6 +31,8 @@
 
 --gridselectioncolor: rgb(36 36 36 / 80%);
 
+--dropdowncolor: rgb(30 30 30 / 100%);
+
 /* Changes almost every text color */
 --fg-primary: rgb(255 255 255 / 100%);
 
@@ -131,7 +133,7 @@ label {
 }
 select {
     margin-left: 5px !important;
-    background-color: #0000006e;
+    background-color: var(--dropdowncolor);
     color: var(--fg-primary);
     border-radius: 5px;
     border: 1px solid var(--bg-dark);
