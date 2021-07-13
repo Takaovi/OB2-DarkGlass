@@ -8,10 +8,10 @@
 --bgimage: url("https://i.imgur.com/UoJzcni.png");
 	--bgopacity: 69%;
 	
---glasscolor: #0005;
+--glasscolor: rgb(0 0 0 / 25%);
 	--glassblur: 5px;
 
---shadowcolor: #0000006b;
+--shadowcolor: rgb(0 0 0 / 75%);
 	--shadowsize: 20px;
 
 --sidebarblur: 0px;
@@ -20,26 +20,25 @@
 --bordereffect: url("https://i.imgur.com/swTnyOP.gif");
 	--borderwidth: 3px;
 
---popupbg: #000000cc;
+--popupbg: rgb(0 0 0 / 75%);
 	--popupbgcolor: rgb(31 31 31 / 32%);
 	--popupbgblur: 5px;
 	
 --textboxbg: rgb(255 255 255 / 5%);
-	--textboxtextcolor: #fff;
+	--textboxtextcolor: rgb(255 255 255 / 100%);
 	
 --buttonbg: rgb(0 0 0 / 0%);
 
---gridselectioncolor: #3e3e3e87;
+--gridselectioncolor: rgb(36 36 36 / 80%);
 
 /* Changes almost every text color */
---fg-primary: #fff;
+--fg-primary: rgb(255 255 255 / 100%);
 
 }
 
 /* CSS */
 
 app {
-    
     background: rgb(0 0 0 / var(--bgopacity)) var(--bgimage);
     background-blend-mode: darken;
     background-size: cover;
