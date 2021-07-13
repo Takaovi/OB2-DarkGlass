@@ -1,5 +1,5 @@
 # OpenBullet 2 - DarkGlass
-A theme for OpenBullet 2
+A highly customizable theme for OpenBullet 2
 
 To change the background, please check the .css file.
 
