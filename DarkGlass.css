@@ -7,8 +7,6 @@
 /* Image from the internet | If you want a local image change the URL to /images/yourimage.jpg | Place the image on OpenBullet 2's wwwroot > images folder */
 --bgimage: url("https://i.imgur.com/UoJzcni.png");
 	--bgopacity: 69%;
-
---logo: url('../logohq.png');
 	
 --glasscolor: rgb(0 0 0 / 25%);
 	--glassblur: 5px;
@@ -37,7 +35,7 @@
 --selectionboxcolor: rgb(255 255 255 / 5%);	
 
 --navbarbg: rgb(255 255 255 / 5%);
-	--navbarblur: blur(5px);
+	--navbarblur: 5px;
 	
 --debuggerbg: rgb(0 0 0 / 50%);
 	--debuggertextareabg: rgb(255 255 255 / 5%);
@@ -271,7 +269,4 @@ b, strong {
 }
 .sidebar .nav-item a.active, .sidebar .nav-item a:hover {
     background-color: var(--sidebarbtncolor) !important;
-}
-.logo {
-    background-image: var(--logo);
 }
