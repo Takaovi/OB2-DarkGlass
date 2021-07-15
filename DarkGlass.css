@@ -7,6 +7,8 @@
 /* Image from the internet | If you want a local image change the URL to /images/yourimage.jpg | Place the image on OpenBullet 2's wwwroot > images folder */
 --bgimage: url("https://i.imgur.com/UoJzcni.png");
 	--bgopacity: 69%;
+
+--logo: url('../logohq.png');
 	
 --glasscolor: rgb(0 0 0 / 25%);
 	--glassblur: 5px;
@@ -14,8 +16,7 @@
 --shadowcolor: rgb(0 0 0 / 40%);
 	--shadowsize: 20px;
 
---sidebarblur: 0px;
-	--sidebarbtncolor: rgb(255 255 255 / 15%);
+--sidebarbtncolor: rgb(255 255 255 / 15%);
 
 --bordereffect: url("https://i.imgur.com/swTnyOP.gif");
 	--borderwidth: 3px;
@@ -35,12 +36,16 @@
 
 --selectionboxcolor: rgb(255 255 255 / 5%);	
 
+--navbarbg: rgb(255 255 255 / 5%);
+	--navbarblur: blur(5px);
+	
 --debuggerbg: rgb(0 0 0 / 50%);
 	--debuggertextareabg: rgb(255 255 255 / 5%);
 	--debuggerbordercolor: rgb(255 255 255 / 20%);
 	
 /* Changes almost every text color */
 --fg-primary: rgb(255 255 255 / 100%);
+	
 }
 
 /* CSS */
@@ -63,7 +68,6 @@ app {
     min-width: 230px;
     transition: 0.5s;
     overflow-y: auto;
-	backdrop-filter: blur(var(--sidebarblur));
 }
 :root {
     --bg-secondary: #0000;
@@ -85,8 +89,8 @@ app {
     height: 62px;
     width: 229px;
     z-index: 1;
-    background: #0000002e;
-    backdrop-filter: blur(5px);
+    background: var(--navbarbg);
+    backdrop-filter: blur(var(--navbarblur));
 }
 .col-xl-6 {
     -webkit-box-flex: 0;
@@ -178,7 +182,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
     background-color: #000000f0;
 }
 form {
-     padding-bottom: 5px;
+    padding-bottom: 5px;
 }
 .page-item .page-link {
     color: #fff !important;
@@ -211,13 +215,13 @@ table.grid-table tr.grid-row-selected td {
     border-image: var(--bordereffect) 30;
 }
 .swal2-success-circular-line-left {
-	background-color: #00000000 !important;
+    background-color: #00000000 !important;
 }
 .swal2-success-circular-line-right {
-	background-color: #00000000 !important;
+    background-color: #00000000 !important;
 }
 .swal2-success-fix {
-	background-color: #00000000 !important;
+    background-color: #00000000 !important;
 }
 ol, ul, dl {
     background: var(--selectionboxcolor);
@@ -254,7 +258,7 @@ b, strong {
     background-color: rgb(31 31 31 / 32%);
 }
 .triggered-action-container {
-	border: solid 0px var(--fg-dark);
+    border: solid 0px var(--fg-dark);
 }
 .ui-tabview-panels {
     border: solid 0px #00000000;
@@ -267,4 +271,7 @@ b, strong {
 }
 .sidebar .nav-item a.active, .sidebar .nav-item a:hover {
     background-color: var(--sidebarbtncolor) !important;
+}
+.logo {
+    background-image: var(--logo);
 }
