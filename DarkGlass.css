@@ -33,9 +33,14 @@
 
 --dropdowncolor: rgb(50 50 50 / 50%);
 
+--selectionboxcolor: rgb(255 255 255 / 5%);	
+
+--debuggerbg: rgb(0 0 0 / 50%);
+	--debuggertextareabg: rgb(255 255 255 / 5%);
+	--debuggerbordercolor: rgb(255 255 255 / 20%);
+	
 /* Changes almost every text color */
 --fg-primary: rgb(255 255 255 / 100%);
-
 }
 
 /* CSS */
@@ -66,9 +71,9 @@ app {
 	--bg-light: #ffffff30
 }
 .debugger-log {
-    background-color: #000000a8;
+    background-color: var(--debuggerbg);
     border-radius: 10px;
-    border: 2px solid #ffffff33;
+    border: 2px solid var(--debuggerbordercolor);
 }
 .list-group-horizontal > button:not(:first-child) {
     margin-left: 0.25rem;
@@ -215,7 +220,7 @@ table.grid-table tr.grid-row-selected td {
 	background-color: #00000000 !important;
 }
 ol, ul, dl {
-    background: rgba(0,0,0,0.35);
+    background: var(--selectionboxcolor);
 }
 .font-weight-bold {
     padding-left: 10px;
@@ -234,7 +239,7 @@ b, strong {
     padding-bottom: 10px;
 }
 .debugger-log textarea {
-    background: rgb(0 0 0 / 43%);
+    background: var(--debuggertextareabg);
 }
 .grid-footer {
     padding-bottom: 7px;
