@@ -41,6 +41,10 @@
 	--debuggertextareabg: rgb(255 255 255 / 5%);
 	--debuggerbordercolor: rgb(255 255 255 / 20%);
 	
+--linecolors: rgb(255 255 255 / 15%);
+
+--configitemcolor: rgb(255 255 255 / 10%);
+	
 /* Changes almost every text color */
 --fg-primary: rgb(255 255 255 / 100%);
 	
@@ -265,8 +269,14 @@ b, strong {
     border: solid 0px #ffffff;
 }
 .config-item {
-    background-color: #8080803b !important;
+    background-color: var(--configitemcolor) !important;
 }
 .sidebar .nav-item a.active, .sidebar .nav-item a:hover {
     background-color: var(--sidebarbtncolor) !important;
+}
+.table th, .table td {
+    border-top: 1px solid var(--linecolors);
+}
+hr {
+    background-color: var(--linecolors);
 }
