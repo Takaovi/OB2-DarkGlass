@@ -12,3 +12,5 @@ To change the background, please check the .css file.
 ### [Weeb](https://i.imgur.com/HkbSL6C.png)
 
 ![screenshot02](https://i.imgur.com/bFqcFeb.png)
+
+*Note: Not really optimized, feel free to pull if you find some function not doing anything*
