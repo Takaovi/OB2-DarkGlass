@@ -13,8 +13,10 @@
 
 --shadowcolor: rgb(0 0 0 / 40%);
 	--shadowsize: 20px;
-
---sidebarbtncolor: rgb(255 255 255 / 15%);
+	
+/* To get the default sidebar just put transparency to 100% */
+--sidebarcolor: rgb(17 17 17 / 0%);
+	--sidebarbtncolor: rgb(255 255 255 / 15%);
 
 --bordereffect: url("https://i.imgur.com/swTnyOP.gif");
 	--borderwidth: 3px;
@@ -52,6 +54,12 @@
 
 /* CSS */
 
+:root {
+    --bg-secondary: var(--sidebarcolor);
+    --bg-dark: #0000;
+    --bg-light: #ffffff30
+}
+
 app {
     background: rgb(0 0 0 / var(--bgopacity)) var(--bgimage);
     background-blend-mode: darken;
@@ -71,19 +79,10 @@ app {
     transition: 0.5s;
     overflow-y: auto;
 }
-:root {
-    --bg-secondary: #0000;
-	--bg-dark: #0000;
-	--bg-light: #ffffff30
-}
 .debugger-log {
     background-color: var(--debuggerbg);
     border-radius: 10px;
     border: 2px solid var(--debuggerbordercolor);
-}
-.list-group-horizontal > button:not(:first-child) {
-    margin-left: 0.25rem;
-    background-color: rgb(0 0 0 / 15%);
 }
 .navbar-footer {
     position: fixed;
@@ -118,14 +117,6 @@ label {
     margin-bottom: 0.5rem;
     align-self: center;
     margin: 5px;
-}
-.col-auto {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
-    flex: 0 0 auto;
-    width: auto;
-    max-width: 100%;
-    align-self: center;
 }
 .stacker-block {
     margin-block: 2% 2%;
@@ -194,7 +185,6 @@ form {
     background-color: #0000004a !important;
 }
 button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
-    cursor: pointer;
     background-color: var(--buttonbg);
 }
 .list-group-horizontal > button:not(:first-child) {
@@ -206,7 +196,7 @@ table.grid-table tr.grid-row-selected td {
     background: var(--gridselectioncolor) !important;
 }
 .fg-fail.mb-3:after {
-    color:white;
+    color: white;
     content: "\a You're currently using the DarkGlass theme! Visit the Github (github.com/Takaovi/OB2-DarkGlass) for more information and updates.";
     white-space: pre;
 }
