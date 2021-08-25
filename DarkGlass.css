@@ -14,9 +14,14 @@
 --shadowcolor: rgb(0 0 0 / 40%);
 	--shadowsize: 20px;
 	
-/* To get the default sidebar just put transparency to 100% */
+/* To get the default sidebar just put transparency to 100% and also on --sidebartopbgcolor */
 --sidebarcolor: rgb(17 17 17 / 0%);
+	--sidebartopbgcolor: rgb(0 0 0 / 0%);
 	--sidebarbtncolor: rgb(255 255 255 / 15%);
+
+/* This is the (lower) part of the sidebar */
+--navbarbg: rgb(255 255 255 / 5%);
+	--navbarblur: 5px;
 
 --bordereffect: url("https://i.imgur.com/swTnyOP.gif");
 	--borderwidth: 3px;
@@ -34,10 +39,7 @@
 
 --dropdowncolor: rgb(50 50 50 / 50%);
 
---selectionboxcolor: rgb(255 255 255 / 5%);	
-
---navbarbg: rgb(255 255 255 / 5%);
-	--navbarblur: 5px;
+--selectionboxcolor: rgb(255 255 255 / 5%);
 	
 --debuggerbg: rgb(0 0 0 / 50%);
 	--debuggertextareabg: rgb(255 255 255 / 5%);
@@ -56,7 +58,7 @@
 
 :root {
     --bg-secondary: var(--sidebarcolor);
-    --bg-dark: #0000;
+    --bg-dark: var(--sidebartopbgcolor);
     --bg-light: #ffffff30
 }
 
