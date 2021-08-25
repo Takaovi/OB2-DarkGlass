@@ -184,7 +184,7 @@ form {
     background-color: #1f1f1f4f !important;
 }
 .bg-variable {
-    background-color: #0000004a !important;
+    background-color: var(--textboxbg) !important;
 }
 button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
     background-color: var(--buttonbg);
@@ -269,5 +269,5 @@ hr {
     background-color: var(--linecolors);
 }
 .input-suggestions {
-	background-color: rgb(0 0 0 / 80%);
+	background-color: rgb(0 0 0 / 90%);
 }
