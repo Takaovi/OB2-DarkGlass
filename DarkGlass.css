@@ -268,3 +268,6 @@ b, strong {
 hr {
     background-color: var(--linecolors);
 }
+.input-suggestions {
+	background-color: rgb(0 0 0 / 80%);
+}
