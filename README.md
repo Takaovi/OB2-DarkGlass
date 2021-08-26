@@ -13,4 +13,10 @@ To change the background, please check the .css file.
 
 ![screenshot02](https://i.imgur.com/bFqcFeb.png)
 
+### [Other (Glass color 44 118 234 / 7%)](https://i.imgur.com/BqaBMjS.jpeg)
+
+![screenshot03](https://i.imgur.com/Wa2xmoT.png)
+
+
+
 *Note: Not really optimized, feel free to pull if you find some function not doing anything*
