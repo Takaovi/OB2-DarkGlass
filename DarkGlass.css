@@ -114,12 +114,6 @@ input:not([type=checkbox]), textarea {
     margin-bottom: 15px;
     margin: 0;
 }
-label {
-    display: inline-block;
-    margin-bottom: 0.5rem;
-    align-self: center;
-    margin: 5px;
-}
 .stacker-block {
     margin-block: 2% 2%;
 }
@@ -153,7 +147,7 @@ select {
     border: 0px solid #ccc;
 }
 .bg-interpolated {
-    background-color: #00000036 !important;
+    background-color: var(--textboxbg) !important;
 }
 .bg-light {
     background: #67676763;
