@@ -76,10 +76,6 @@ app {
 }
 .sidebar {
     background-color: var(--glasscolor);
-    width: 230px;
-    min-width: 230px;
-    transition: 0.5s;
-    overflow-y: auto;
 }
 .debugger-log {
     background-color: var(--debuggerbg);
@@ -87,19 +83,10 @@ app {
     border: 2px solid var(--debuggerbordercolor);
 }
 .navbar-footer {
-    position: fixed;
-    bottom: 0px;
-    height: 62px;
-    width: 229px;
-    z-index: 1;
     background: var(--navbarbg);
     backdrop-filter: blur(var(--navbarblur));
 }
 .col-xl-6 {
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 50%;
-    flex: 0 0 50%;
-    max-width: 50%;
     background: rgb(70 70 70 / 11%);
 }
 .col-12, .col-xl-2 {
@@ -109,21 +96,10 @@ input:not([type=checkbox]), textarea {
     background: var(--textboxbg);
     color: var(--textboxtextcolor);
     border: 1px solid #e2363600;
-    padding: 3px 6px 3px 6px;
     font-family: var(--consolas);
-    margin-bottom: 15px;
-    margin: 0;
 }
 .stacker-block {
     margin-block: 2% 2%;
-}
-.stacker-block-body {
-    font-size: 16px;
-    padding: 5px 0px;
-}
-.multiple-selector {
-    display: flex;
-    width: 95%;
 }
 .swal2-container.swal2-backdrop-show, .swal2-container.swal2-noanimation {
     backdrop-filter: blur(var(--popupbgblur));
@@ -158,13 +134,7 @@ select {
 .debugger-log {
     margin-left: 1%;
 }
-h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
-    margin-left: 0%;
-}
 .container.pt-2.px-1 {
-    border-radius: 5px;
-    margin-bottom: 5px;
-    padding-bottom: 7px;
     background: rgb(0 0 0 / 38%);
 }
 .bulletta-messagebox {
@@ -184,7 +154,6 @@ button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disab
     background-color: var(--buttonbg);
 }
 table.grid-table tr.grid-row-selected td {
-    color: unset;
     background: var(--gridselectioncolor) !important;
 }
 .fg-fail.mb-3:after {
@@ -210,27 +179,8 @@ table.grid-table tr.grid-row-selected td {
 ol, ul, dl {
     background: var(--selectionboxcolor);
 }
-.font-weight-bold {
-    padding-left: 10px;
-}
-.fg-fail {
-    padding-left: 10px;
-}
-.fg-ban {
-    padding-left: 10px;
-}
-b, strong {
-    padding-left: 10px;
-}
-.job-viewer-config-image {
-    padding-left: 10px;
-    padding-bottom: 10px;
-}
 .debugger-log textarea {
     background: var(--debuggertextareabg);
-}
-.grid-footer {
-    padding-bottom: 7px;
 }
 .blazored-modal {
     background: rgb(19 19 19 / 76%);
