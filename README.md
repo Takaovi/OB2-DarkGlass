@@ -3,7 +3,7 @@
 
 To change the background, please check the .css file. Use a good editor, such as VS Code to edit the file.
 
-**By default there's background, remember to set one!**
+**By default there's no background, remember to set one!**
 
 ## Examples
 
