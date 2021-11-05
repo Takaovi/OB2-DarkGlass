@@ -1,7 +1,7 @@
 # OpenBullet 2 - DarkGlass
 ### A highly customizable theme for OpenBullet 2
 
-To change the background, please check the .css file.
+To change the background, please check the .css file. Use a good editor, such as VS Code to edit the file.
 
 ## Examples
 
