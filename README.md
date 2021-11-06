@@ -5,17 +5,16 @@ Read ReadMe.txt to learn how to change the background.
 
 ## Examples
 
-### [Dark](https://i.imgur.com/UoJzcni.png)
+### Dark
 
 ![screenshot01](https://i.imgur.com/NqOQZYT.png)
 
-### [Weeb](https://i.imgur.com/HkbSL6C.png)
+### Weeb
 
 ![screenshot02](https://i.imgur.com/bFqcFeb.png)
 
-### [Other (Glass color 44 118 234 / 7%)](https://i.imgur.com/BqaBMjS.jpeg)
+### Rainy
 
 ![screenshot03](https://i.imgur.com/Wa2xmoT.png)
 
-
-*Note: Not really optimized, feel free to pull if you find some function not doing anything*
+* Glass color 44 118 234 / 7%
