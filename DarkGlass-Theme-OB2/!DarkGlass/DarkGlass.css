@@ -1,0 +1,217 @@
+/* DarkClass Theme for Openbullet 2 | Thanks for using my theme! - Takaovi
+Check for updates here - https://github.com/Takaovi/OB2-DarkGlass */
+
+:root {
+
+/* SETTINGS */
+
+--bgimage: url('/../!DarkGlass/Assets/background.png');
+    --bgopacity: 69%;
+    
+--glasscolor: rgb(0 0 0 / 25%);
+    --glassblur: 5px;
+
+--shadowcolor: rgb(0 0 0 / 40%);
+    --shadowsize: 20px;
+    
+/* To get the default sidebar just put transparency to 100% and also on --sidebartopbgcolor */
+--sidebarcolor: rgb(17 17 17 / 0%);
+    --sidebartopbgcolor: rgb(0 0 0 / 0%);
+    --sidebarbtncolor: rgb(255 255 255 / 15%);
+
+/* This is the (lower) part of the sidebar */
+--navbarbg: rgb(255 255 255 / 5%);
+    --navbarblur: 5px;
+
+--bordereffect: url('/../!DarkGlass/Assets/borderEffect.gif');
+    --borderwidth: 3px;
+
+--popupbg: rgb(0 0 0 / 75%);
+    --popupbgcolor: rgb(31 31 31 / 30%);
+    --popupbgblur: 5px;
+    
+--textboxbg: rgb(255 255 255 / 5%);
+    --textboxtextcolor: rgb(255 255 255 / 100%);
+    
+--buttonbg: rgb(0 0 0 / 0%);
+
+--gridselectioncolor: rgb(255 255 255 / 15%);
+
+--dropdowncolor: rgb(50 50 50 / 50%);
+
+--selectionboxcolor: rgb(255 255 255 / 5%);
+    
+--debuggerbg: rgb(0 0 0 / 50%);
+    --debuggertextareabg: rgb(255 255 255 / 5%);
+    --debuggerbordercolor: rgb(255 255 255 / 20%);
+    
+--linecolors: rgb(255 255 255 / 15%);
+
+--configitemcolor: rgb(255 255 255 / 10%);
+    
+/* Changes almost every text color */
+--fg-primary: rgb(255 255 255 / 100%);
+    
+}
+
+/* CSS */
+
+:root {
+    --bg-secondary: var(--sidebarcolor);
+    --bg-dark: var(--sidebartopbgcolor);
+    --bg-light: #ffffff30
+}
+
+app {
+    background: rgb(0 0 0 / var(--bgopacity)) var(--bgimage);
+    background-blend-mode: darken;
+    background-size: cover;
+}
+.main > div {
+    padding-left: 2rem !important;
+    padding-right: 1.5rem !important;
+    background: var(--glasscolor);
+    box-shadow: 0 0 var(--shadowsize) var(--shadowsize) var(--shadowcolor);
+    backdrop-filter: blur(var(--glassblur));
+}
+.sidebar {
+    background-color: var(--glasscolor);
+}
+.debugger-log {
+    background-color: var(--debuggerbg);
+    border-radius: 10px;
+    border: 2px solid var(--debuggerbordercolor);
+}
+.navbar-footer {
+    background: var(--navbarbg);
+    backdrop-filter: blur(var(--navbarblur));
+}
+.col-xl-6 {
+    background: rgb(70 70 70 / 11%);
+}
+.col-12, .col-xl-2 {
+    margin-bottom: 0px;
+}
+input:not([type=checkbox]), textarea {
+    background: var(--textboxbg);
+    color: var(--textboxtextcolor);
+    border: 1px solid #e2363600;
+    font-family: var(--consolas);
+}
+.stacker-block {
+    margin-block: 2% 2%;
+}
+.swal2-container.swal2-backdrop-show, .swal2-container.swal2-noanimation {
+    backdrop-filter: blur(var(--popupbgblur));
+    background-color: var(--popupbgcolor);
+}
+select {
+    margin-left: 5px !important;
+    background-color: var(--dropdowncolor);
+    color: var(--fg-primary);
+    border-radius: 5px;
+    border: 1px solid var(--bg-dark);
+    padding: 3px;
+}
+.p-2 {
+    border-radius: 5px;
+    border: 2px solid;
+    border-image: var(--bordereffect) 30;
+    background-color: #00000033 !important;
+}
+.input-group {
+    border: 0px solid #ccc;
+}
+.bg-interpolated {
+    background-color: var(--textboxbg) !important;
+}
+.bg-light {
+    background: #67676763;
+}
+.card-text {
+    color: #000;
+}
+.debugger-log {
+    margin-left: 1%;
+}
+.container.pt-2.px-1 {
+    background: rgb(0 0 0 / 38%);
+}
+.bulletta-messagebox {
+    background-color: #000000f0;
+}
+form {
+    padding-bottom: 5px;
+}
+.page-item .page-link {
+    color: #fff !important;
+    background-color: #1f1f1f4f !important;
+}
+.bg-variable {
+    background-color: var(--textboxbg) !important;
+}
+button:not(:disabled), [type="button"]:not(:disabled), [type="reset"]:not(:disabled), [type="submit"]:not(:disabled) {
+    background-color: var(--buttonbg);
+}
+table.grid-table tr.grid-row-selected td {
+    background: var(--gridselectioncolor) !important;
+}
+.fg-fail.mb-3:after {
+    color: white;
+    content: "\a You're currently using the DarkGlass theme! Visit the Github (github.com/Takaovi/OB2-DarkGlass) for more information and updates.";
+    white-space: pre;
+}
+.swal2-popup {
+    background-color: var(--popupbg) !important;
+    border-radius: 5px !important;
+    border: var(--borderwidth) solid;
+    border-image: var(--bordereffect) 30;
+}
+.swal2-success-circular-line-left {
+    background-color: #00000000 !important;
+}
+.swal2-success-circular-line-right {
+    background-color: #00000000 !important;
+}
+.swal2-success-fix {
+    background-color: #00000000 !important;
+}
+ol, ul, dl {
+    background: var(--selectionboxcolor);
+}
+.debugger-log textarea {
+    background: var(--debuggertextareabg);
+}
+.blazored-modal {
+    background: rgb(19 19 19 / 76%);
+    backdrop-filter: blur(3px);
+    border-image: var(--bordereffect) 30;
+}
+.blazored-modal-overlay {
+    backdrop-filter: blur(3px);
+    background-color: rgb(31 31 31 / 32%);
+}
+.triggered-action-container {
+    border: solid 0px var(--fg-dark);
+}
+.ui-tabview-panels {
+    border: solid 0px #00000000;
+}
+.ui-tabview-nav li {
+    border: solid 0px #ffffff;
+}
+.config-item {
+    background-color: var(--configitemcolor) !important;
+}
+.sidebar .nav-item a.active, .sidebar .nav-item a:hover {
+    background-color: var(--sidebarbtncolor) !important;
+}
+.table th, .table td {
+    border-top: 1px solid var(--linecolors);
+}
+hr {
+    background-color: var(--linecolors);
+}
+.input-suggestions {
+    background-color: rgb(0 0 0 / 90%);
+}
